@@ -117,7 +117,7 @@ resource "aws_instance" "lamp_server" {
   tags = {
     owner   = "Lamp-estephe"
     Environment = "dev"
-    name  = "lamp stack"
+    Name  = "lamp stack"
   }
 }
 # an empty resource block
